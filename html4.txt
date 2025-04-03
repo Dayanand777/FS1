@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Teacher Meet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        
+        .card {
+            width: 400px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            text-align: center;
+        }
+        
+        .header {
+            background-color: #0047ab;
+            color: white;
+            padding: 15px;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .header p {
+            font-size: 6px;
+            margin: 5px 0;
+        }
+
+        .logo {
+            padding: 10px;
+            background-color: #f8f8f8;
+        }
+        
+        .logo img {
+            height: 50px;
+            margin: 5px;
+        }
+        
+        .content {
+            padding: 20px;
+        }
+        
+        .box {
+            background-color: #0047ab;
+            color: white;
+            padding: 15px;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 8px;
+            width: 250px;
+            margin: 0 auto;
+            line-height: 1.5;
+        }
+        
+        .illustration img {
+            width: 100%;
+            max-width: 250px;
+            height: auto;
+            border-radius: 10px;
+        }
+        
+        .details {
+            margin: 20px 0;
+            font-size: 18px;
+            font-weight: bold;
+            color: #0047ab;
+        }
+        
+        .venue {
+            font-size: 16px;
+        }
+        
+        .footer {
+            background-color: #f8f8f8;
+            padding: 15px;
+            font-size: 12px;
+            text-align: left;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        .footer p {
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            DAYANANDA SAGAR COLLEGE OF ENGINEERING<br>
+            <p>(An Autonomous Institute affiliated to Visvesvaraya Technological University (VTU), Belagavi.<br>
+                Approved by AICTE and UGC, Accredited by NAAC with 'A' grade & ISO 9001-2015 Certified Institution)</p>
+            <small>DEPARTMENT OF INFORMATION SCIENCE & ENGINEERING</small>
+        </div>
+
+        <div class="logo">
+            <img src="logo.jpg" alt="DSCE Logo">
+            <img src="iic.jpg" alt="IIC Image">
+            <img src="iqrc.jpg" alt="IQAC Logo">
+        </div>
+
+        <div class="content">
+            <div class="box">
+                1st Year ISE <br>
+                PARENT <br>
+                TEACHER <br>
+                MEET
+            </div>
+            <br>
+            <div class="illustration">
+                <img src="2.jpg" alt="Meeting Image">
+            </div>
+            
+            <div class="details">
+                April 4, 2025 | 02:00 PM<br>
+                <div class="venue">VENUE: ISE-308</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Dr. Madhura &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               Dr. Annapurna P Patil &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dr. B G Prasad <br>
+               Dr. Rashmi J&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Dean Academic and HOD 
+               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Principal
+            Dr. Radhika Y S<br><strong>Dept. of ISE<br>Coordinators</strong></p>    
+        </div>
+    </div>
+</body>
+</html>
