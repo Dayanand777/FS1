@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parent Teacher Meet</title>
+    <style>
+        :root {
+            --primary-color: #0047ab;
+            --secondary-color: #f8f8f8;
+            --text-color: #333;
+            --light-text: #555;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+        
+        .card {
+            display: grid;
+            grid-template-rows: auto auto 1fr auto;
+            max-width: 450px;
+            width: 100%;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+            background-color: white;
+            transition: transform 0.3s ease;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .header {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.2rem;
+            text-align: center;
+        }
+        
+        .header h1 {
+            font-size: 1.4rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 0.6rem;
+            opacity: 0.9;
+            margin-bottom: 0.5rem;
+        }
+        
+        .header small {
+            font-size: 0.7rem;
+            display: inline-block;
+            margin-top: 0.5rem;
+            font-weight: 500;
+        }
+        
+        .logo-container {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 1rem;
+            background-color: var(--secondary-color);
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+        
+        .logo-container img {
+            height: 50px;
+            object-fit: contain;
+        }
+        
+        .content {
+            padding: 1.5rem;
+            display: grid;
+            gap: 1.5rem;
+        }
+        
+        .meeting-box {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1.2rem;
+            border-radius: 8px;
+            text-align: center;
+            margin: 0 auto;
+            width: 100%;
+            max-width: 280px;
+        }
+        
+        .meeting-box h2 {
+            font-size: 1.6rem;
+            font-weight: 700;
+            line-height: 1.3;
+        }
+        
+        .illustration {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .illustration img {
+            width: 100%;
+            max-width: 280px;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        .details {
+            text-align: center;
+            color: var(--primary-color);
+        }
+        
+        .details h3 {
+            font-size: 1.2rem;
+            margin-bottom: 0.5rem;
+            font-weight: 600;
+        }
+        
+        .venue {
+            font-size: 1rem;
+            font-weight: 500;
+            margin-top: 0.5rem;
+        }
+        
+        .footer {
+            background-color: var(--secondary-color);
+            padding: 1.2rem;
+            font-size: 0.75rem;
+            color: var(--light-text);
+        }
+        
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+        }
+        
+        .footer-column {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .footer-column strong {
+            margin-top: 0.5rem;
+            display: inline-block;
+            color: var(--primary-color);
+        }
+        
+        @media (max-width: 480px) {
+            .header h1 {
+                font-size: 1.2rem;
+            }
+            
+            .meeting-box h2 {
+                font-size: 1.4rem;
+            }
+            
+            .details h3 {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="header">
+            <h1>DAYANANDA SAGAR COLLEGE OF ENGINEERING</h1>
+            <p>(An Autonomous Institute affiliated to Visvesvaraya Technological University (VTU), Belagavi.</p>
+            <p>Approved by AICTE and UGC, Accredited by NAAC with 'A' grade & ISO 9001-2015 Certified Institution</p>
+            <small>DEPARTMENT OF INFORMATION SCIENCE & ENGINEERING</small>
+        </div>
+
+        <div class="logo-container">
+            <img src="logo.jpg" alt="DSCE Logo">
+            <img src="iic.jpg" alt="IIC Image">
+            <img src="iqrc.jpg" alt="IQAC Logo">
+        </div>
+
+        <div class="content">
+            <div class="meeting-box">
+                <h2>1st Year ISE<br>PARENT TEACHER MEET</h2>
+            </div>
+            
+            <div class="illustration">
+                <img src="2.jpg" alt="Meeting Image">
+            </div>
+            
+            <div class="details">
+                <h3>April 4, 2025 | 02:00 PM</h3>
+                <div class="venue">VENUE: ISE-308</div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="footer-grid">
+                <div class="footer-column">
+                    <span>Dr. Madhura</span>
+                    <span>Dr. Rashmi J</span>
+                </div>
+                <div class="footer-column">
+                    <span>Dr. Annapurna P Patil</span>
+                    <span>Dean Academic and HOD</span>
+                </div>
+                <div class="footer-column">
+                    <span>Dr. B G Prasad</span>
+                    <span>Principal Dr. Radhika Y S</span>
+                    <strong>Dept. of ISE<br>Coordinators</strong>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
